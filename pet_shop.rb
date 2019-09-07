@@ -16,20 +16,33 @@
 #   end
 # end
 #
-# def pets_sold (amount)
+# def pets_sold(amount)
 #   for amount in @pet_shop
 #     return @pet_shop[:admin][:pets_sold]
 #   end
 # end
 #
-# def increase_pets_sold (pets, amount)
+# def increase_pets_sold(pets, amount)
 #   for pets in @pet_shop
 #     return @pet_shop[:admin][:pets_sold] += amount
 #   end
 # end
+#
+# def stock_count(count)
+#   for count in @pet_shop
+#     return @pet_shop[:pets].count
+#   end
+# end
+#
+# def pets_by_breed(pets, breed)
+#   for breed in pets
+#     return breed
+#   end
+# end
 
-def stock_count(count)
-  for count in @pet_shop
-    return @pet_shop[:pets].count
+def pets_by_breed(pets, breed)
+  pets = []
+    for breed[:breed] in pets
+      return breed.count
+    end
   end
-end
