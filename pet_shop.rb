@@ -59,6 +59,38 @@
 #   end
 # end
 
-def remove_pet_by_name(shop, pet_removed)
-  shop[:pets].delete(pet_removed)
-end
+# def remove_pet_by_name(shop, pet_removed)
+#   shop[:pets].delete(pet_removed)
+# end
+#
+# def add_pet_to_stock(pet_shop, new_pet)
+#   pet_shop.push(new_pet)
+#     for count in pet_shop
+#       return pet_shop[:pets].count
+#     end
+# end
+
+# def customer_cash(cash)
+#   for cash in @customers[0]
+#     return @customers[0][:cash]
+#   end
+# end
+
+# def remove_customer_cash(customer, amount)
+#   for customer in @customer[0]
+#     return @customer[0][:cash] -= amount
+#   end
+# end
+#
+# def customer_pet_count(customer)
+#   for customer in @customers[0]
+#     return @customers[0][:pets].count
+#   end
+# end
+
+def add_pet_to_customer(customer, new_pet)
+  for customer in @customers[0]
+     customer.push(new_pet)
+   end
+     return @customer[0][:pets][:count]
+  end
