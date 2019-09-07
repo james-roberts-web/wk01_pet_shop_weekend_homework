@@ -39,10 +39,22 @@
 #     return breed
 #   end
 # end
-
-def pets_by_breed(pets, breed)
-  pets = []
-    for breed[:breed] in pets
-      return breed.count
-    end
-  end
+#
+# def pets_by_breed(pets, breed)
+#   pets = []
+#     for breed[:breed] in pets
+#       return breed.length
+#     end
+#   end
+#
+# def find_pet_by_name(shop, pet)
+#   for name in shop[:pets]
+#     return name if name[:name] == pet
+#   end
+# end
+#
+# def find_pet_by_name(shop, pet)
+#   for name in shop[:pets]
+#      return nil if name[:name] != pet
+#   end
+# end
