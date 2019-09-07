@@ -16,31 +16,8 @@ def add_or_remove_cash(cash, amount)
   end
 end
 
-
-
-
-
-# def add_or_remove_cash(total_cash, amount)
-#   cash = @pet_shop[:admin][:total_cash]
-#   for cash in total_cash
-#     total_cash = cash + amount
-#   end
-#   return total_cash
-# end
-
-
-#
-
-
-# #
-# #
-# # # def total_cash(customers)
-# # #   total = 0
-# # #   for
-# # #     money in customers
-# # #     total =+ @customers[:cash]
-# # #   end
-# # #     return total_cash
-# # # end
-#
-#
+def pets_sold (amount)
+  for amount in @pet_shop
+    return @pet_shop[:admin][:pets_sold]
+  end
+end
