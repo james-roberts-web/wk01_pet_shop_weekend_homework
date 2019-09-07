@@ -58,3 +58,7 @@
 #      return nil if name[:name] != pet
 #   end
 # end
+
+def remove_pet_by_name(shop, pet_removed)
+  shop[:pets].delete(pet_removed)
+end
